@@ -1,0 +1,56 @@
+[15:31:38 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[15:31:38 INFORMATION] Now listening on: http://localhost:5223
+[15:31:38 INFORMATION] Application started. Press Ctrl+C to shut down.
+[15:31:38 INFORMATION] Hosting environment: Development
+[15:31:38 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[15:31:51 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/ - null null
+[15:31:51 WARNING] Failed to determine the https port for redirect.
+[15:31:51 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/ - 404 0 null 17.8741ms
+[15:31:51 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5223/, Response status code: 404
+[15:32:11 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[15:32:11 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:32:11 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[15:32:11 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 2.1172ms
+[15:32:11 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:32:11 ERROR] An unhandled exception has occurred while executing the request.
+[15:32:11 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 500 null text/html; charset=utf-8 40.95ms
+[15:32:11 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/favicon.ico - null null
+[15:32:11 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/favicon.ico - 404 0 null 3.1343ms
+[15:32:11 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5223/favicon.ico, Response status code: 404
+[15:32:25 INFORMATION] Application is shutting down...
+[15:33:32 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[15:33:32 INFORMATION] Now listening on: http://localhost:5223
+[15:33:32 INFORMATION] Application started. Press Ctrl+C to shut down.
+[15:33:32 INFORMATION] Hosting environment: Development
+[15:33:32 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[15:33:40 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[15:33:40 WARNING] Failed to determine the https port for redirect.
+[15:33:40 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:33:40 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[15:33:40 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[15:33:40 INFORMATION] This is an information.
+[15:33:40 WARNING] This is a warn message.
+[15:33:40 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 8.1308ms
+[15:33:40 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:33:40 ERROR] An unhandled exception has occurred while executing the request.
+[15:33:40 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 500 null text/html; charset=utf-8 54.8021ms
+[15:34:12 INFORMATION] Application is shutting down...
+[15:34:14 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[15:34:14 INFORMATION] Now listening on: http://localhost:5223
+[15:34:14 INFORMATION] Application started. Press Ctrl+C to shut down.
+[15:34:14 INFORMATION] Hosting environment: Development
+[15:34:14 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[15:34:20 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[15:34:20 WARNING] Failed to determine the https port for redirect.
+[15:34:20 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:34:20 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[15:34:20 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[15:34:20 INFORMATION] This is an information.
+[15:34:20 WARNING] This is a warn message.
+[15:34:20 ERROR] This is an error message.
+[15:34:20 INFORMATION] Executed action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.324ms.
+[15:34:20 INFORMATION] Executing ObjectResult, writing value of type 'CompanyEmployees.WeatherForecast[]'.
+[15:34:20 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 34.0478ms
+[15:34:20 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[15:34:20 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 200 null application/json; charset=utf-8 61.0957ms
+[15:34:33 INFORMATION] Application is shutting down...

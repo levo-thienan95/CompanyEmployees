@@ -1,0 +1,45 @@
+[00:49:30 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[00:49:30 INFORMATION] Now listening on: http://localhost:5223
+[00:49:30 INFORMATION] Application started. Press Ctrl+C to shut down.
+[00:49:30 INFORMATION] Hosting environment: Development
+[00:49:30 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[00:49:52 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[00:49:52 WARNING] Failed to determine the https port for redirect.
+[00:49:52 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[00:49:52 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[00:49:53 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[00:49:53 INFORMATION] Getting all companies
+[00:49:53 INFORMATION] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[00:49:53 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 816.7872ms.
+[00:49:53 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Company, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[00:49:53 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 1003.1393ms
+[00:49:53 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[00:49:53 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 1048.7482ms
+[00:50:19 INFORMATION] Application is shutting down...
+[00:50:41 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[00:50:41 INFORMATION] Now listening on: http://localhost:5223
+[00:50:41 INFORMATION] Application started. Press Ctrl+C to shut down.
+[00:50:41 INFORMATION] Hosting environment: Development
+[00:50:41 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[00:50:49 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[00:50:49 WARNING] Failed to determine the https port for redirect.
+[00:50:49 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[00:50:49 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[00:50:49 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[00:50:49 INFORMATION] Getting all companies
+[00:50:50 INFORMATION] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[00:50:50 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 719.2016ms.
+[00:50:50 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Company, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[00:50:50 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 830.0442ms
+[00:50:50 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[00:50:50 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 868.8611ms
+[00:51:03 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/swagger - null null
+[00:51:03 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/swagger - 404 0 null 4.5184ms
+[00:51:03 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5223/swagger, Response status code: 404
+[00:51:12 INFORMATION] Application is shutting down...

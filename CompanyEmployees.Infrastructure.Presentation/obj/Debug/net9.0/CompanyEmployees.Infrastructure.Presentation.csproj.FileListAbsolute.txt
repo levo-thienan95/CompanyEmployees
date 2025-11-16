@@ -1,0 +1,17 @@
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.deps.json
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.AssemblyInfoInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.AssemblyInfo.cs
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.csproj.CoreCompileInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/refint/CompanyEmployees.Infrastructure.Presentation.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.Presentation.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Presentation.csproj.AssemblyReference.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Presentation/obj/Debug/net9.0/CompanyE.D134BD47.Up2Date

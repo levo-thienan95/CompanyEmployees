@@ -1,0 +1,61 @@
+[09:39:18 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[09:39:18 INFORMATION] Now listening on: http://localhost:5223
+[09:39:18 INFORMATION] Application started. Press Ctrl+C to shut down.
+[09:39:18 INFORMATION] Hosting environment: Development
+[09:39:18 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[09:39:34 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[09:39:34 WARNING] Failed to determine the https port for redirect.
+[09:39:34 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:34 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[09:39:34 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[09:39:34 INFORMATION] This is an information.
+[09:39:34 WARNING] This is a warn message.
+[09:39:34 ERROR] This is an error message.
+[09:39:34 INFORMATION] Executed action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.483ms.
+[09:39:34 INFORMATION] Executing ObjectResult, writing value of type 'CompanyEmployees.WeatherForecast[]'.
+[09:39:34 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 35.9877ms
+[09:39:34 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:34 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 200 null application/json; charset=utf-8 62.6873ms
+[09:39:35 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[09:39:35 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:35 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[09:39:35 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[09:39:35 INFORMATION] This is an information.
+[09:39:35 WARNING] This is a warn message.
+[09:39:35 ERROR] This is an error message.
+[09:39:35 INFORMATION] Executed action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5442ms.
+[09:39:35 INFORMATION] Executing ObjectResult, writing value of type 'CompanyEmployees.WeatherForecast[]'.
+[09:39:35 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 3.4919ms
+[09:39:35 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:35 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 200 null application/json; charset=utf-8 7.8291ms
+[09:39:36 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[09:39:36 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:36 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[09:39:36 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[09:39:36 INFORMATION] This is an information.
+[09:39:36 WARNING] This is a warn message.
+[09:39:36 ERROR] This is an error message.
+[09:39:36 INFORMATION] Executed action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2208ms.
+[09:39:36 INFORMATION] Executing ObjectResult, writing value of type 'CompanyEmployees.WeatherForecast[]'.
+[09:39:36 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 1.4515ms
+[09:39:36 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:36 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 200 null application/json; charset=utf-8 5.5685ms
+[09:39:36 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/weatherforecast - null null
+[09:39:36 INFORMATION] Executing endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:36 INFORMATION] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CompanyEmployees.WeatherForecast] Get() on controller CompanyEmployees.Controllers.WeatherForecastController (CompanyEmployees).
+[09:39:36 INFORMATION] Executing action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) - Validation state: "Valid"
+[09:39:36 INFORMATION] This is an information.
+[09:39:36 WARNING] This is a warn message.
+[09:39:36 ERROR] This is an error message.
+[09:39:36 INFORMATION] Executed action method CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2155ms.
+[09:39:36 INFORMATION] Executing ObjectResult, writing value of type 'CompanyEmployees.WeatherForecast[]'.
+[09:39:36 INFORMATION] Executed action CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees) in 2.0943ms
+[09:39:36 INFORMATION] Executed endpoint 'CompanyEmployees.Controllers.WeatherForecastController.Get (CompanyEmployees)'
+[09:39:36 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/weatherforecast - 200 null application/json; charset=utf-8 4.3422ms
+[09:40:12 INFORMATION] Application is shutting down...
+[09:41:28 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[09:41:28 INFORMATION] Now listening on: http://localhost:5223
+[09:41:28 INFORMATION] Application started. Press Ctrl+C to shut down.
+[09:41:28 INFORMATION] Hosting environment: Development
+[09:41:28 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[11:10:45 INFORMATION] Application is shutting down...

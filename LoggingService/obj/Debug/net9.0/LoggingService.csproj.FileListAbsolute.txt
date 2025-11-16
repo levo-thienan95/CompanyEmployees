@@ -1,0 +1,12 @@
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/bin/Debug/net9.0/LoggingService.deps.json
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/bin/Debug/net9.0/LoggingService.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/bin/Debug/net9.0/LoggingService.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.csproj.AssemblyReference.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.AssemblyInfoInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.AssemblyInfo.cs
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.csproj.CoreCompileInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/refint/LoggingService.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/ref/LoggingService.dll

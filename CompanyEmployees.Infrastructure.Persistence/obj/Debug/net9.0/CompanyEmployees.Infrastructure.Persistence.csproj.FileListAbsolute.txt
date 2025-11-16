@@ -1,0 +1,15 @@
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.deps.json
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/bin/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.csproj.AssemblyReference.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.AssemblyInfoInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.AssemblyInfo.cs
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyE.E0477890.Up2Date
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/refint/CompanyEmployees.Infrastructure.Persistence.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.Persistence.dll

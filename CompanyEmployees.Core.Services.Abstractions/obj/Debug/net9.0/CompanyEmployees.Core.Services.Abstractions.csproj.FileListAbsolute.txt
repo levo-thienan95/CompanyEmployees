@@ -1,0 +1,15 @@
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.deps.json
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/bin/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.AssemblyInfoInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.AssemblyInfo.cs
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.csproj.CoreCompileInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/refint/CompanyEmployees.Core.Services.Abstractions.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/ref/CompanyEmployees.Core.Services.Abstractions.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyEmployees.Core.Services.Abstractions.csproj.AssemblyReference.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services.Abstractions/obj/Debug/net9.0/CompanyE.6311AF8D.Up2Date

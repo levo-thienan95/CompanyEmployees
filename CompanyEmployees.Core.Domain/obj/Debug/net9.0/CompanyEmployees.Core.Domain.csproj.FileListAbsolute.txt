@@ -1,0 +1,11 @@
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.deps.json
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/bin/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.AssemblyInfoInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.AssemblyInfo.cs
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.csproj.CoreCompileInputs.cache
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/refint/CompanyEmployees.Core.Domain.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/CompanyEmployees.Core.Domain.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Domain/obj/Debug/net9.0/ref/CompanyEmployees.Core.Domain.dll
