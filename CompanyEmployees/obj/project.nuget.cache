@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8C7OTqwdH5Q=",
+  "dgSpecHash": "X8HpVIch+8E=",
   "success": true,
   "projectFilePath": "/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
+    "/Users/anle/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/anle/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/anle/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/anle/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

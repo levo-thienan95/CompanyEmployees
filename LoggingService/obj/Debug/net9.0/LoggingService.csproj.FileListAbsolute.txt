@@ -10,3 +10,4 @@
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/refint/LoggingService.dll
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.pdb
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/ref/LoggingService.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/LoggingService/obj/Debug/net9.0/LoggingService.sourcelink.json

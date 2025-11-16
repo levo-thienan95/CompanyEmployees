@@ -13,6 +13,7 @@ builder.Services.ConfigureServices();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServicesManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Host.UseSerilog((hostContext, configuration) =>
 {
     configuration.ReadFrom.Configuration(hostContext.Configuration);

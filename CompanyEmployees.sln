@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Core.Servi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Infrastructure.Presentation", "CompanyEmployees.Infrastructure.Presentation\CompanyEmployees.Infrastructure.Presentation.csproj", "{B77E1715-40C0-4568-BAC8-8A68F8A2CF3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{343E1F3D-4D7D-4E9C-B6FB-B690A18BF91C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{B77E1715-40C0-4568-BAC8-8A68F8A2CF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B77E1715-40C0-4568-BAC8-8A68F8A2CF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B77E1715-40C0-4568-BAC8-8A68F8A2CF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343E1F3D-4D7D-4E9C-B6FB-B690A18BF91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343E1F3D-4D7D-4E9C-B6FB-B690A18BF91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343E1F3D-4D7D-4E9C-B6FB-B690A18BF91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343E1F3D-4D7D-4E9C-B6FB-B690A18BF91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

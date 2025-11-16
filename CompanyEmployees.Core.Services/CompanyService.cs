@@ -1,7 +1,9 @@
+using AutoMapper;
 using CompanyEmployees.Core.Domain.Entities;
 using CompanyEmployees.Core.Domain.Repositories;
 using CompanyEmployees.Core.Services.Abstractions;
 using LoggingService;
+using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Core.Services;
 
@@ -9,20 +11,24 @@ public class CompanyService: ICompanyService
 {
     private readonly IRepositoryManager _repositoryManager;
     private readonly ILoggerManager _loggerManager;
+    private readonly IMapper _mapper;
 
-    public CompanyService(IRepositoryManager repositoryManager, ILoggerManager loggerManager)
+    public CompanyService(IRepositoryManager repositoryManager, ILoggerManager loggerManager, IMapper mapper)
     {
         _repositoryManager = repositoryManager;
         _loggerManager = loggerManager;
+        _mapper = mapper;
     }
 
-    public IEnumerable<Company> GetAllCompanies(bool trackChanges)
+    public IEnumerable<CompanyDto> GetAllCompanies(bool trackChanges)
     {
         _loggerManager.LogInformation("Getting all companies");
         try
         {
             var companies = _repositoryManager.Company.GetAllCompanies(trackChanges);
-            return companies;
+            
+            var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
+            return companiesDto;
         }
         catch (Exception ex)
         {

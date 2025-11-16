@@ -13,3 +13,4 @@
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/refint/CompanyEmployees.Infrastructure.Persistence.dll
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.pdb
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/ref/CompanyEmployees.Infrastructure.Persistence.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Infrastructure.Persistence/obj/Debug/net9.0/CompanyEmployees.Infrastructure.Persistence.sourcelink.json

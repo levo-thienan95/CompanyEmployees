@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+viQKQoU5zg=",
+  "dgSpecHash": "pk5R7aq89hY=",
   "success": true,
   "projectFilePath": "/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/CompanyEmployees.Core.Services.csproj",
   "expectedPackageFiles": [
+    "/Users/anle/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/anle/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/anle/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "/Users/anle/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

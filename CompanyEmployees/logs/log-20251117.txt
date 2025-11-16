@@ -43,3 +43,321 @@ ORDER BY [c].[Name]
 [00:51:03 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/swagger - 404 0 null 4.5184ms
 [00:51:03 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5223/swagger, Response status code: 404
 [00:51:12 INFORMATION] Application is shutting down...
+[01:06:19 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[01:06:19 INFORMATION] Now listening on: http://localhost:5223
+[01:06:19 INFORMATION] Application started. Press Ctrl+C to shut down.
+[01:06:19 INFORMATION] Hosting environment: Development
+[01:06:19 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[01:06:25 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:06:25 WARNING] Failed to determine the https port for redirect.
+[01:06:25 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:06:25 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:06:25 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:06:25 INFORMATION] Getting all companies
+[01:06:25 INFORMATION] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:06:25 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 710.0375ms.
+[01:06:25 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Company, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:06:25 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 814.4428ms
+[01:06:25 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:06:25 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 836.8605ms
+[01:06:40 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:06:40 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:06:40 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:06:40 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:06:40 INFORMATION] Getting all companies
+[01:06:40 INFORMATION] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:06:40 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 49.006ms.
+[01:06:40 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CompanyEmployees.Core.Domain.Entities.Company, CompanyEmployees.Core.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:06:40 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 57.7093ms
+[01:06:40 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:06:40 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 62.1636ms
+[01:06:42 INFORMATION] Application is shutting down...
+[01:23:15 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[01:23:15 INFORMATION] Now listening on: http://localhost:5223
+[01:23:15 INFORMATION] Application started. Press Ctrl+C to shut down.
+[01:23:15 INFORMATION] Hosting environment: Development
+[01:23:15 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[01:23:20 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:23:20 WARNING] Failed to determine the https port for redirect.
+[01:23:20 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:23:20 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:23:21 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:23:21 INFORMATION] Getting all companies
+[01:23:21 INFORMATION] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:23:21 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 727.6477ms.
+[01:23:21 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:23:21 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 848.3374ms
+[01:23:21 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:23:21 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 883.625ms
+[01:25:59 INFORMATION] Application is shutting down...
+[01:40:22 WARNING] The WebRootPath was not found: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees/wwwroot. Static files may be unavailable.
+[01:40:22 INFORMATION] Now listening on: http://localhost:5223
+[01:40:22 INFORMATION] Application started. Press Ctrl+C to shut down.
+[01:40:22 INFORMATION] Hosting environment: Development
+[01:40:22 INFORMATION] Content root path: /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees
+[01:40:26 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:26 WARNING] Failed to determine the https port for redirect.
+[01:40:26 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:26 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:26 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:26 INFORMATION] Getting all companies
+[01:40:26 INFORMATION] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:27 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 725.388ms.
+[01:40:27 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:27 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 863.9915ms
+[01:40:27 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:27 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 893.2469ms
+[01:40:27 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:27 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:27 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:27 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:27 INFORMATION] Getting all companies
+[01:40:27 INFORMATION] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:27 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 40.3354ms.
+[01:40:27 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:27 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 43.5376ms
+[01:40:27 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:27 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 47.1515ms
+[01:40:28 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:28 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:28 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:28 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:28 INFORMATION] Getting all companies
+[01:40:28 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:28 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.7553ms.
+[01:40:28 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:28 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 22.0935ms
+[01:40:28 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:28 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 25.7761ms
+[01:40:29 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:29 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:29 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:29 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:29 INFORMATION] Getting all companies
+[01:40:29 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:29 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5239ms.
+[01:40:29 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:29 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 5.414ms
+[01:40:29 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:29 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 6.181ms
+[01:40:29 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:29 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:29 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:29 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:29 INFORMATION] Getting all companies
+[01:40:29 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:29 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.0503ms.
+[01:40:29 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:29 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 6.5479ms
+[01:40:29 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:29 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.7103ms
+[01:40:30 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:30 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:30 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:30 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:30 INFORMATION] Getting all companies
+[01:40:30 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:30 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.4644ms.
+[01:40:30 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:30 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 5.4081ms
+[01:40:30 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:30 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 6.1521ms
+[01:40:30 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:30 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:30 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:30 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:30 INFORMATION] Getting all companies
+[01:40:30 INFORMATION] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:30 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.0075ms.
+[01:40:30 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:30 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 7.7061ms
+[01:40:30 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:30 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 9.0346ms
+[01:40:31 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:31 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:31 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:31 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:31 INFORMATION] Getting all companies
+[01:40:31 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:31 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.6116ms.
+[01:40:31 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:31 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 5.3447ms
+[01:40:31 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:31 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 5.7995ms
+[01:40:32 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:32 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:32 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:32 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:32 INFORMATION] Getting all companies
+[01:40:32 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:32 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.7205ms.
+[01:40:32 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:32 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 7.2562ms
+[01:40:32 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:32 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 8.6751ms
+[01:40:32 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:32 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:32 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:32 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:32 INFORMATION] Getting all companies
+[01:40:32 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:32 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.612ms.
+[01:40:32 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:32 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 6.0369ms
+[01:40:32 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:32 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.6036ms
+[01:40:34 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:34 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:34 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:34 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:34 INFORMATION] Getting all companies
+[01:40:34 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:34 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.8112ms.
+[01:40:34 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:34 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 6.9593ms
+[01:40:34 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:34 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.8404ms
+[01:40:35 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:35 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:35 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:35 INFORMATION] Getting all companies
+[01:40:35 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.0182ms.
+[01:40:35 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 6.1966ms
+[01:40:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:35 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.7425ms
+[01:40:35 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:35 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:35 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:35 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:35 INFORMATION] Getting all companies
+[01:40:35 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:35 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.8081ms.
+[01:40:35 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:35 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 7.1147ms
+[01:40:35 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:35 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 8.093ms
+[01:40:36 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:36 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:36 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:36 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:36 INFORMATION] Getting all companies
+[01:40:36 INFORMATION] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:36 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.3999ms.
+[01:40:36 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:36 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 3.9827ms
+[01:40:36 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:36 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 4.4906ms
+[01:40:36 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:36 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:36 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:36 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:36 INFORMATION] Getting all companies
+[01:40:36 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:36 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.0144ms.
+[01:40:36 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:36 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 4.8489ms
+[01:40:36 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:36 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 5.9851ms
+[01:40:37 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:37 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:37 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:37 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:37 INFORMATION] Getting all companies
+[01:40:37 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:37 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.6957ms.
+[01:40:37 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:37 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 5.7506ms
+[01:40:37 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:37 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.1207ms
+[01:40:38 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:38 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:38 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:38 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:38 INFORMATION] Getting all companies
+[01:40:38 INFORMATION] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:38 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2827ms.
+[01:40:38 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:38 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 6.3863ms
+[01:40:38 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:38 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 7.9262ms
+[01:40:45 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companiess - null null
+[01:40:45 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companiess - 404 0 null 2.3352ms
+[01:40:45 INFORMATION] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5223/api/companiess, Response status code: 404
+[01:40:51 INFORMATION] Request starting HTTP/1.1 GET http://localhost:5223/api/companies - null null
+[01:40:51 INFORMATION] Executing endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:51 INFORMATION] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController (CompanyEmployees.Infrastructure.Presentation).
+[01:40:51 INFORMATION] Executing action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) - Validation state: "Valid"
+[01:40:51 INFORMATION] Getting all companies
+[01:40:51 INFORMATION] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+[01:40:51 INFORMATION] Executed action method CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.5945ms.
+[01:40:51 INFORMATION] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[01:40:51 INFORMATION] Executed action CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation) in 7.1533ms
+[01:40:51 INFORMATION] Executed endpoint 'CompanyEmployees.Infrastructure.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Infrastructure.Presentation)'
+[01:40:51 INFORMATION] Request finished HTTP/1.1 GET http://localhost:5223/api/companies - 200 null application/json; charset=utf-8 8.2756ms
+[01:40:55 INFORMATION] Application is shutting down...

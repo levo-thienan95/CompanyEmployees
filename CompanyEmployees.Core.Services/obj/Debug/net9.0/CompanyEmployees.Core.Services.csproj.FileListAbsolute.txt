@@ -17,3 +17,6 @@
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/obj/Debug/net9.0/refint/CompanyEmployees.Core.Services.dll
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/obj/Debug/net9.0/CompanyEmployees.Core.Services.pdb
 /Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/obj/Debug/net9.0/ref/CompanyEmployees.Core.Services.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/bin/Debug/net9.0/Shared.dll
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/bin/Debug/net9.0/Shared.pdb
+/Users/anle/Documents/Ultimate ASP.NET Core Web API/Practice/CompanyEmployees/CompanyEmployees.Core.Services/obj/Debug/net9.0/CompanyEmployees.Core.Services.sourcelink.json
