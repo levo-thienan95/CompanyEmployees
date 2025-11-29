@@ -1,5 +1,6 @@
 using AutoMapper;
 using CompanyEmployees.Core.Domain.Entities;
+using CompanyEmployees.Core.Domain.Exceptions;
 using CompanyEmployees.Core.Domain.Repositories;
 using CompanyEmployees.Core.Services.Abstractions;
 using LoggingService;
@@ -7,7 +8,7 @@ using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Core.Services;
 
-public class CompanyService: ICompanyService
+public class CompanyService : ICompanyService
 {
     private readonly IRepositoryManager _repositoryManager;
     private readonly ILoggerManager _loggerManager;
@@ -23,17 +24,21 @@ public class CompanyService: ICompanyService
     public IEnumerable<CompanyDto> GetAllCompanies(bool trackChanges)
     {
         _loggerManager.LogInformation("Getting all companies");
-        try
-        {
-            var companies = _repositoryManager.Company.GetAllCompanies(trackChanges);
-            
-            var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
-            return companiesDto;
-        }
-        catch (Exception ex)
-        {
-            _loggerManager.LogError($"Something went wrong in the {nameof(GetAllCompanies)} service method {ex}");
-            throw;
-        }
+        var companies = _repositoryManager.Company.GetAllCompanies(trackChanges);
+
+        var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
+        return companiesDto;
+    }
+
+    public CompanyDto GetCompany(Guid companyId, bool trackChanges)
+    {
+        _loggerManager.LogInformation("Getting company");
+        var company = _repositoryManager.Company.GetCompany(companyId, trackChanges);
+        
+        if (company is null)
+            throw new CompanyNotFoundException(companyId);
+        
+        var companyDto = _mapper.Map<CompanyDto>(company); 
+        return companyDto;
     }
 }

@@ -58,3 +58,5 @@ TestResults/
 *.vspscc
 *.vssscc
 _ReSharper*/
+*.dll
+*.pdb

@@ -1,5 +1,6 @@
 using CompanyEmployees.Core.Domain.Entities;
 using CompanyEmployees.Core.Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace CompanyEmployees.Infrastructure.Persistence.Repositories;
 
@@ -15,5 +16,11 @@ internal sealed class CompanyRepository:RepositoryBase<Company>, ICompanyReposit
        return GetAll(trackChanges)
             .OrderBy(c => c.Name)
             .ToList();
+    }
+
+    public Company GetCompany(Guid companyId, bool trackChanges)
+    {
+        return Get(c => c.Id.Equals(companyId), trackChanges).Include(x => x.Employees)
+            .SingleOrDefault()!;
     }
 }
